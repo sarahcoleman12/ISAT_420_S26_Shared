@@ -23,18 +23,18 @@ After this practice you should be able to
         - For Windows: Go the the start menu and open the `Anaconda Prompt`
         - For Apple: Open the `Terminal` in launcher and enter the neccesary commands 
 1. Activate the environment and install at least the following packages: `jupyter`, `xarray`, `netcdf4`, `matplotlib`
-        - Note: For some Anaconda installations (i.e. the Windows Version), the direct installation of these packages fails. This is because, they are distributed through the `conda-forge` channel.   
-          You can check which channels are available like this:
+   - Note: For some Anaconda installations (i.e. the Windows Version), the direct installation of these packages fails. This is because, they are distributed through the `conda-forge` channel.   
+     You can check which channels are available like this:
    
-          ```bash
-          conda config --show channels
-          ```
+     ```bash
+     conda config --show channels
+     ```
    
-          If not already added you can add the `conda-forge` channel like this:
+     If not already added you can add the `conda-forge` channel like this:
    
-          ```bash
-          conda config --add default_channels conda-forge
-          ```        
+     ```bash
+     conda config --add default_channels conda-forge
+     ```        
 1. Launch a jupyter notebook to test whether your installation works by running the notebook in the `Code` directory:  `w7_environment_test.ipynb`
 1. (Optional): Use the provided `environment.yml` file to update your environment. 
 
